@@ -7,8 +7,15 @@ function changeBack() {
 	document.getElementById("circle").style.backgroundColor="chartreuse";
 	document.getElementById("circle").style.color="black";
 }
-//trying to change my font?!
+// change this text
+function changeFont() {
+	document.getElementById("change").style.fontFamily = "Impact,Charcoal,sans-serif";
+}
+//this is the code for button
+function showMe() {
+	document.getElementById("clicker").innerHTML = "OMG Why?!";
 
+}
 
 //adding ajax to the playing field
 $(document).ready(function() {
