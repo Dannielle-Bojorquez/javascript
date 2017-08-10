@@ -7,6 +7,12 @@ function changeBack() {
 	document.getElementById("circle").style.backgroundColor="chartreuse";
 	document.getElementById("circle").style.color="black";
 }
+// input trial
+function pleaseWork() {
+	var X = document.getElementById("myText").value;
+	document.getElementById("letsTry").innerHTML = X;
+}
+
 // change this text
 function changeFont() {
 	document.getElementById("change").style.fontFamily = "Impact,Charcoal,sans-serif";
