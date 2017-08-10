@@ -1,0 +1,16 @@
+#circle {
+	color: black;
+	background-color: chartreuse;
+	height: 150px;
+	width: 150px;
+border-radius: 75%;
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	padding: 35px;
+}
+p{
+	font-family: cursive;
+	font-style: italic;
+}

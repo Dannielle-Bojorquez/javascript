@@ -2,23 +2,20 @@
 <html>
 	<head>
 		<title>Javascript</title>
-		<script type="text/javascript">
-			function substitute () {
-				var myValue = document.getElementById('myTextBox').value;
-
-				if (myValue.length == 0) {
-					alert('Please enter a real value in the text box!');
-					return;
-				}
-				var myTitle = document.getElementById('title');
-				myTitle.innerHTML = myValue
-			}
+		<script src="script.js">
 		</script>
+		<link rel="stylesheet" href="jscript.css">
 	</head>
 	<body>
-		<h1 id="title">My Example</h1>
-		<input type="text" id="myTextBox" />
-		<input type="submit" value="Click Me" onclick="" />
+		<form>
+		<h1>My Example</h1>
+			<div id="circle" onmouseover="changeColor();" onmouseout="changeBack();">
+				<h1>Hello!</h1>
+			</div>
+			<p>First name:</p><input type="text" name="firstName" onchange="firstName">
+			<p>Last name:</p><input type="text" name="lastName" onchange="lastName">
+<button type="submit">Lets Go!</button>
 
+		</form>
 	</body>
 </html>
